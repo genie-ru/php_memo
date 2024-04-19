@@ -15,11 +15,19 @@
     </style>
 </head>
 <body>
+    <?php
+        $name = "Dark matter";
+        $read = false;
+
+        if ($read) {
+            $message = "You have read $name";
+        } else {
+            $message = "You have not read $name";
+        }
+    ?>
+    <h1>
         
-            <h1>
-                You have read"Dark matter";
-            </h1>
-        
-    </h1>
+        <?= $message; ?>
+    </h>
 </body>
 </html>
