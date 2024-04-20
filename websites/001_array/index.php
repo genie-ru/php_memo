@@ -9,12 +9,23 @@
     <h1>Recoomendations</h1>
 
     <?php
-        $books = "Hail Mary";
+        $books = [
+            "Do Androids Dream of Electric Sheep?",
+            "The Langoliers",
+            "Hail Mary"
+        ];
     ?>
 
     <ul>
+        <?php foreach ($books as $book) {
+            echo "<li>" . $book . "</li>";
+        }
+        ?> 
+    </ul>
+    <!-- <ul>
         <li>Do Androids Dream of Electric Sheep?</li>
         <li>The Langoliers</li>
         <li>Hail Mary</li>
+    </ul> -->
 </body>
 </html>
