@@ -9,6 +9,20 @@
     <h1>Recoomendations</h1>
 
     <?php
+        $books =
+        [
+            'name' => 'Project Hail Mary',
+            'auther' => 'Andy Weir',
+            'releaseYear' => 2021,
+            'purchaseUrl' => 'http://example.com'
+        ],
+        [
+            'name' => 'The Martian',
+            'auther' => 'Andy Weir',
+            'releaseYear' => 2011,
+            'purchaseUrl' = 'http://example.com'
+        ],
+        
         $books = [
             "Do Androids Dream of Electric Sheep?",
             "The Langoliers",
